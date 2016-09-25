@@ -1,3 +1,77 @@
+Overview of changes in 3.22.0
+=============================
+
+* Updated translations:
+ Dutch
+ English (British)
+ Ukrainian
+
+
+Overview of changes in 3.21.92
+==============================
+
+* Experimental account templates support (771366)
+
+* Updated translations:
+ Bulgarian
+ Danish
+ Finnish
+ Galician
+ Gaelic (Scottish)
+ Greek
+ Hebrew
+ Kazakh
+ Korean
+ Latvian
+ Lithuanian
+ Persian
+ Russian
+ Swedish
+ Thai
+ Turkish
+ Vietnamese
+
+
+Overview of changes in 3.21.91
+==============================
+
+* Bugs fixed:
+ 770610 daemon: Clean-up the memory management of our GKeyFile instances
+
+* Updated translations:
+ French
+ Friulian
+ Hungarian
+ Polish
+ Serbian
+ Slovenian
+
+
+Overview of changes in 3.21.90
+==============================
+
+* Bugs fixed:
+ 688041 daemon: Ensure temporary accounts are really removed from the keyring
+ 755386 pocket: Support logging in with a Firefox account
+ 756431 identity: Don't leak the GoaObject from find_object_with_principal
+ 764157 Port to GTask from GSimpleAsyncResult
+ 768808 identity: Silence -Wincompatible-pointer-types
+ 769213 Let goa_provider_show_account have more control over the UI
+
+* Updated translations:
+ Czech
+ Friulian
+ German
+ Gujarati
+ Hebrew
+ Hungarian
+ Indonesian
+ Lithuanian
+ Portuguese (Brazilian)
+ Spanish
+ Slovak
+
+
 Overview of changes in 3.21.4
 =============================
 

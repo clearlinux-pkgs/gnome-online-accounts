@@ -1,1 +1,2 @@
---disable-inspector --disable-backend
+--disable-inspector
+--disable-telepathy
