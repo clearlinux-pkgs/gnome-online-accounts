@@ -1,3 +1,35 @@
+Overview of changes in 3.22.5
+=============================
+
+* Bugs fixed:
+ 779548: Don't leak the name_owner and result in
+         dbus_proxy_reload_properties_sync
+
+* Updated translations:
+ Icelandic
+
+
+Overview of changes in 3.22.4
+=============================
+
+* Bugs fixed:
+ 765121 Memory leak in goa-daemon
+ 776871 Broken error handling in on_got_identity_for_sign_out
+ 776897 The invocation is leaked when handling ExchangeSecretKeys and SignOut
+
+
+Overview of changes in 3.22.3
+=============================
+
+* New API key for Google
+
+* Updated translations:
+ Dutch
+ English (British)
+ Friulian
+ Polish
+
+
 Overview of changes in 3.22.2
 =============================
 
