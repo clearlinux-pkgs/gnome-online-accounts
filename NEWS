@@ -1,59 +1,131 @@
-Overview of changes in 3.22.5
+Overview of changes in 3.24.0
 =============================
-
-* Bugs fixed:
- 779548: Don't leak the name_owner and result in
-         dbus_proxy_reload_properties_sync
 
 * Updated translations:
- Icelandic
-
-
-Overview of changes in 3.22.4
-=============================
-
-* Bugs fixed:
- 765121 Memory leak in goa-daemon
- 776871 Broken error handling in on_got_identity_for_sign_out
- 776897 The invocation is leaked when handling ExchangeSecretKeys and SignOut
-
-
-Overview of changes in 3.22.3
-=============================
-
-* New API key for Google
-
-* Updated translations:
- Dutch
- English (British)
+ Czech
+ Danish
+ Finnish
+ French
  Friulian
+ Galician
+ German
+ Hungarian
+ Indonesian
+ Italian
+ Kazakh
+ Korean
+ Latvian
+ Lithuanian
  Polish
+ Portuguese (Brazilian)
+ Russian
+ Slovak
+ Swedish
+ Turkish
+ Ukrainian
 
 
-Overview of changes in 3.22.2
-=============================
+Overview of changes in 3.23.92
+==============================
+
+* Bugs fixed:
+ 778416 live: Re-title it as "Microsoft"
+ 778417 Capitalize "Account" in the dialog's title
+ 779548 Don't leak the name_owner and result in
+        dbus_proxy_reload_properties_sync
 
 * Updated translations:
- Simplified Chinese
- Norwegian bokmål
+ Croatian
+ Danish
+ Icelandic
+ Italian
+ Kazakh
+ Korean
+ Lithuanian
 
 
-Overview of changes in 3.22.1
-=============================
+Overview of changes in 3.23.91
+==============================
+
+* Bugs fixed:
+ 778353 Disconnect all signal handlers from the GtkDialog once add_account is
+        done
+ 778779 Improve the spacing between UI elements
 
 * Updated translations:
  Basque
  Traditional Chinese (Taiwan)
- Croatian
- Italian
+ Finnish
+ French
+ Galician
+ Hungarian
+ Portuguese (Brazilian)
+ Serbian
+ Swedish
+ Ukrainian
 
 
-Overview of changes in 3.22.0
-=============================
+Overview of changes in 3.23.90
+==============================
+
+* Bugs fixed:
+ 772205 Use double quotes instead of single quotes in translatable strings
 
 * Updated translations:
+ Belarusian
+ Catalan
+ Czech
+ Danish
+ Friulian
+ German
+ Indonesian
+ Kazakh
+ Norwegian bokmål
+ Polish
+ Russian
+ Slovak
+ Spanish
+
+
+Overview of changes in 3.23.4
+=============================
+
+* Bugs fixed:
+ 764157 Port to GTask from GSimpleAsyncResult
+ 765121 Memory leak in goa-daemon
+ 768515 Add support for Nextcloud
+ 776871 Broken error handling in on_got_identity_for_sign_out
+ 776897 The invocation is leaked when handling ExchangeSecretKeys and SignOut
+ 776906 Miscellaneous fixes and improvements to add_temporary_account
+
+* Updated translations:
+ Czech
+ Hungarian
+ Kazakh
+ Norwegian bokmål
+ Spanish
+
+
+Overview of changes in 3.23.3
+=============================
+
+* New API key for Google
+
+* Bugs fixed:
+ 738315 IRC: network selection appears broken
+ 769267 kerberos: Specify an icon
+ 774176 Don't depend needlessly on X11
+ 774205 oauth, oauth2: Remove borders from widgets
+
+* Updated translations:
+ Basque
+ Simplified Chinese
+ Traditional Chinese (Taiwan)
+ Croatian
  Dutch
  English (British)
+ Italian
+ Norwegian bokmål
  Ukrainian
 
 
