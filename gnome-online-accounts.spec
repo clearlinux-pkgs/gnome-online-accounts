@@ -4,12 +4,12 @@
 #
 Name     : gnome-online-accounts
 Version  : 3.24.0
-Release  : 6
+Release  : 7
 URL      : https://download.gnome.org/sources/gnome-online-accounts/3.24/gnome-online-accounts-3.24.0.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-online-accounts/3.24/gnome-online-accounts-3.24.0.tar.xz
 Summary  : GNOME Online Accounts Library
 Group    : Development/Tools
-License  : GPL-2.0 LGPL-2.1
+License  : LGPL-2.1
 Requires: gnome-online-accounts-lib
 Requires: gnome-online-accounts-bin
 Requires: gnome-online-accounts-data
@@ -102,7 +102,7 @@ locales components for the gnome-online-accounts package.
 
 %build
 export LANG=C
-export SOURCE_DATE_EPOCH=1490636972
+export SOURCE_DATE_EPOCH=1491317370
 %configure --disable-static --disable-inspector \
 --disable-telepathy
 make V=1  %{?_smp_mflags}
@@ -115,7 +115,7 @@ export no_proxy=localhost
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1490636972
+export SOURCE_DATE_EPOCH=1491317370
 rm -rf %{buildroot}
 %make_install
 %find_lang gnome-online-accounts
@@ -129,7 +129,9 @@ rm -rf %{buildroot}
 
 %files data
 %defattr(-,root,root,-)
+/usr/lib64/girepository-1.0/Goa-1.0.typelib
 /usr/share/dbus-1/services/org.gnome.OnlineAccounts.service
+/usr/share/gir-1.0/*.gir
 /usr/share/glib-2.0/schemas/org.gnome.online-accounts.gschema.xml
 /usr/share/icons/hicolor/16x16/apps/goa-account-facebook.png
 /usr/share/icons/hicolor/16x16/apps/goa-account-flickr.png
@@ -194,13 +196,11 @@ rm -rf %{buildroot}
 /usr/include/goa-1.0/goabackend/goabackendenums.h
 /usr/include/goa-1.0/goabackend/goabackendenumtypes.h
 /usr/include/goa-1.0/goabackend/goaprovider.h
-/usr/lib64/girepository-1.0/Goa-1.0.typelib
 /usr/lib64/goa-1.0/include/goaconfig.h
 /usr/lib64/libgoa-1.0.so
 /usr/lib64/libgoa-backend-1.0.so
 /usr/lib64/pkgconfig/goa-1.0.pc
 /usr/lib64/pkgconfig/goa-backend-1.0.pc
-/usr/share/gir-1.0/*.gir
 
 %files doc
 %defattr(-,root,root,-)
