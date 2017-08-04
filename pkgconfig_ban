@@ -5,3 +5,5 @@ telepathy-glib
 mission-control-plugins
 account-plugin
 cheese-gtk
+libaccounts-glib
+libsignon-glib
