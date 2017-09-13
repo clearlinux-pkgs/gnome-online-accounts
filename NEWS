@@ -1,31 +1,104 @@
-Overview of changes in 3.24.3
+Overview of changes in 3.26.0
 =============================
+
+* Updated translations:
+ Basque
+ Danish
+ Greek
+ Italian
+ Swedish
+ Vietnamese
+
+
+Overview of changes in 3.25.92
+==============================
+
+* Updated translations:
+ Belarusian
+ Traditional Chinese (Taiwan)
+ Danish
+ Dutch
+ Finnish
+ Friulian
+ French
+ German
+ Korean
+ Latvian
+ Polish
+ Portuguese (Brazilian)
+ Serbian
+
+
+Overview of changes in 3.25.90
+==============================
 
 * Bugs fixed:
  758716 Accept-Language header not being set since the WebKit2 port
+ 785649 build: Fix build when no Kerberos libraries are available
+ 785726 facebook: Make it work with Graph API > 2.3
  786007 flickr: Doesn't show the permissions page after logging in
 
+* Updated translations:
+ Croatian
+ Czech
+ Galician
+ German
+ Kazakh
+ Malayalam
+ Nepali
+ Slovenian
+ Spanish
+ Turkish
 
-Overview of changes in 3.24.2
+
+Overview of changes in 3.25.4
 =============================
 
 * Bugs fixed:
- 760440 backend: Use constructor to setup gettext
- 785726 facebook: Make it work with Graph API > 2.3
+ 784512 pocket: CRITICALs from ensure_credentials_sync
+ 784513 build: Fix Kerberos never being automatically enabled
+ 784944 Clean up public headers and remove unused code paths
+
+* Updated translations:
+ Belarusian
+ Catalan
+ Friulian
+ Hungarian
+ Indonesian
+ Lithuanian
+ Slovak
+ Spanish
 
 
-Overview of changes in 3.24.1
+Overview of changes in 3.25.3
 =============================
+
+* Support Todoist (780138)
+
+* Telepathy is disabled by default
+
+* Bugs fixed:
+ 686131 kerberos: Prevent cryptic error string from leaking into the UI
+ 760440 backend: Use constructor to setup gettext
+ 770542 build: Fix running autogen.sh outside $srcdir
+ 772305 Advertise non-STARTTLS support for GMail
+ 779368 provider: Use an info bar for accounts needing attention
 
 * Updated translations:
  Belarusian
  Croatian
+ Esperanto
+ Friulian
+ German
  Greek
  Hebrew
+ Indonesian
+ Kazakh
  Norwegian bokmål
  Serbian
  Slovenian
  Spanish
+ Turkish
  Vietnamese
 
 
