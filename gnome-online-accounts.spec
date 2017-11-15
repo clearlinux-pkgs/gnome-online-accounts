@@ -4,7 +4,7 @@
 #
 Name     : gnome-online-accounts
 Version  : 3.26.1
-Release  : 14
+Release  : 15
 URL      : https://download.gnome.org/sources/gnome-online-accounts/3.26/gnome-online-accounts-3.26.1.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-online-accounts/3.26/gnome-online-accounts-3.26.1.tar.xz
 Summary  : GNOME Online Accounts Library
