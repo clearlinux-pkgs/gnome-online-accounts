@@ -4,15 +4,15 @@
 #
 Name     : gnome-online-accounts
 Version  : 3.26.2
-Release  : 16
+Release  : 17
 URL      : https://download.gnome.org/sources/gnome-online-accounts/3.26/gnome-online-accounts-3.26.2.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-online-accounts/3.26/gnome-online-accounts-3.26.2.tar.xz
 Summary  : GNOME Online Accounts Library
 Group    : Development/Tools
 License  : LGPL-2.1
+Requires: gnome-online-accounts-data
 Requires: gnome-online-accounts-lib
 Requires: gnome-online-accounts-bin
-Requires: gnome-online-accounts-data
 Requires: gnome-online-accounts-locales
 Requires: gnome-online-accounts-doc
 BuildRequires : docbook-xml
@@ -107,7 +107,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1513289827
+export SOURCE_DATE_EPOCH=1513289996
 %configure --disable-static --disable-inspector \
 --disable-telepathy
 make  %{?_smp_mflags}
@@ -120,7 +120,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1513289827
+export SOURCE_DATE_EPOCH=1513289996
 rm -rf %{buildroot}
 %make_install
 %find_lang gnome-online-accounts
