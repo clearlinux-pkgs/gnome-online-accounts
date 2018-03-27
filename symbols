@@ -732,7 +732,6 @@ libgoa-backend-1.0.so.1:goa_utils_set_error_soup
 libgoa-backend-1.0.so.1:goa_utils_set_error_ssl
 libgoa-backend-1.0.so.1:goa_utils_store_credentials_for_id_sync
 libgoa-backend-1.0.so.1:goa_utils_store_credentials_for_object_sync
-libgoa-backend-1.0.so.1:goa_web_view_add_cookies
 libgoa-backend-1.0.so.1:goa_web_view_fake_mobile
 libgoa-backend-1.0.so.1:goa_web_view_get_type
 libgoa-backend-1.0.so.1:goa_web_view_get_view
