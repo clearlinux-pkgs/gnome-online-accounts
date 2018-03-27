@@ -4,7 +4,7 @@
 #
 Name     : gnome-online-accounts
 Version  : 3.28.0
-Release  : 20
+Release  : 21
 URL      : https://download.gnome.org/sources/gnome-online-accounts/3.28/gnome-online-accounts-3.28.0.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-online-accounts/3.28/gnome-online-accounts-3.28.0.tar.xz
 Summary  : GNOME Online Accounts Library
@@ -107,7 +107,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1522186350
+export SOURCE_DATE_EPOCH=1522186526
 %configure --disable-static --disable-inspector \
 --disable-telepathy \
 --enable-kerberos
@@ -121,7 +121,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1522186350
+export SOURCE_DATE_EPOCH=1522186526
 rm -rf %{buildroot}
 %make_install
 %find_lang gnome-online-accounts
