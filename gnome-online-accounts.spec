@@ -4,7 +4,7 @@
 #
 Name     : gnome-online-accounts
 Version  : 3.28.0
-Release  : 21
+Release  : 22
 URL      : https://download.gnome.org/sources/gnome-online-accounts/3.28/gnome-online-accounts-3.28.0.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-online-accounts/3.28/gnome-online-accounts-3.28.0.tar.xz
 Summary  : GNOME Online Accounts Library
