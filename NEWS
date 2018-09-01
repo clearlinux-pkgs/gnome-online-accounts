@@ -1,3 +1,39 @@
+Overview of changes in 3.30.0
+=============================
+
+* Updated translations:
+ Arabic
+
+
+Overview of changes in 3.29.91
+==============================
+
+* Bugs fixed:
+  !2 build: Fix #FooObject style links
+  !8 Remove additional unnecessary GDestroyNotify casts
+ #10 build: Silence warning about _FORTIFY_SOURCE requiring optimization
+
+
+Overview of changes in 3.29.4
+=============================
+
+* Bugs fixed:
+ !2 Port to meson build system
+
+* Updated translations:
+ Occitan
+
+
+Overview of changes in 3.29.1
+=============================
+
+* Remove Telepathy support (795322)
+
+* Updated translations:
+ Simplified Chinese
+ Czech
+
+
 Overview of changes in 3.28.0
 =============================
 
