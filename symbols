@@ -664,7 +664,6 @@ libgoa-backend-1.0.so.1:goa_object_skeleton_attach_maps
 libgoa-backend-1.0.so.1:goa_object_skeleton_attach_photos
 libgoa-backend-1.0.so.1:goa_object_skeleton_attach_printers
 libgoa-backend-1.0.so.1:goa_object_skeleton_attach_read_later
-libgoa-backend-1.0.so.1:goa_object_skeleton_attach_todo
 libgoa-backend-1.0.so.1:goa_owncloud_provider_get_type
 libgoa-backend-1.0.so.1:goa_pocket_provider_get_type
 libgoa-backend-1.0.so.1:goa_provider_add_account
@@ -700,7 +699,6 @@ libgoa-backend-1.0.so.1:goa_smtp_auth_is_plain
 libgoa-backend-1.0.so.1:goa_smtp_auth_new
 libgoa-backend-1.0.so.1:goa_soup_logger_get_type
 libgoa-backend-1.0.so.1:goa_soup_logger_new
-libgoa-backend-1.0.so.1:goa_todoist_provider_get_type
 libgoa-backend-1.0.so.1:goa_util_account_notify_property_cb
 libgoa-backend-1.0.so.1:goa_util_add_row_switch_from_keyfile_with_blurb
 libgoa-backend-1.0.so.1:goa_util_add_row_widget
