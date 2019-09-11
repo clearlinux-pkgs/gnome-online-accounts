@@ -528,6 +528,7 @@ libgoa-backend-1.0.so.1:goa_ews_client_get_type
 libgoa-backend-1.0.so.1:goa_ews_client_new
 libgoa-backend-1.0.so.1:goa_exchange_provider_get_type
 libgoa-backend-1.0.so.1:goa_facebook_provider_get_type
+libgoa-backend-1.0.so.1:goa_fedora_provider_get_type
 libgoa-backend-1.0.so.1:goa_flickr_provider_get_type
 libgoa-backend-1.0.so.1:goa_foursquare_provider_get_type
 libgoa-backend-1.0.so.1:goa_google_provider_get_type
