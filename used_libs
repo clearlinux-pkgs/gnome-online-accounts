@@ -12,6 +12,7 @@ libgio-2.0.so.0
 libglib-2.0.so.0
 libgobject-2.0.so.0
 libgtk-3.so.0
+libharfbuzz.so.0
 libjavascriptcoregtk-4.0.so.18
 libjson-glib-1.0.so.0
 libk5crypto.so.3

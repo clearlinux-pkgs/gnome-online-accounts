@@ -1,53 +1,82 @@
-Overview of changes in 3.34.1
+Overview of changes in 3.36.0
+=============================
+
+* Updated translations:
+ Finnish
+ Kurdish (Sorani)
+
+
+Overview of changes in 3.35.90
+==============================
+
+* Bugs fixed:
+ !41 Polish some rough edges in the Meson build
+ !43 build: Remove AC_ISC_POSIX
+ !44 build: Remove AC_HEADER_STDC
+ !45 kerberos-identity-manager: Remove unused signal handler ID
+ #43 daemon, dbus: Enable checking if a provider type is supported
+
+* Updated translations:
+ Croatian
+ English (British)
+ Japanese
+ Malay
+
+
+Overview of changes in 3.35.3
+=============================
+
+* Remove Pocket (!18)
+
+* Bugs fixed:
+ !36 Drop the priv pointer from the GObject instance structures
+ !37 Port away from deprecated GLib API like g_memove and g_get_current_time
+ !39 webview: Port to JSCValue
+ !40 Use the G_DECLARE_* macros to reduce GObject boilerplate
+ #83 Add Exchange and Last.fm icons
+
+* Updated translations:
+ Galician
+ Russian
+
+
+Overview of changes in 3.35.1
 =============================
 
 * Bugs fixed:
  #8 icons: Unbreak providers without any visual identity
 
 * Updated translations:
- Traditional Chinese (Taiwan)
- Danish
- Dutch
- Slovak
-
-
-Overview of changes in 3.34.0
-=============================
-
-* Updated translations:
- Finnish
- Greek
- Italian
- Portuguese (Brazilian)
- Turkish
-
-
-Overview of changes in 3.33.92
-==============================
-
-* Updated translations:
  Basque
  Catalan
- Croatian
+ Traditional Chinese (Taiwan)
  Czech
+ Danish
+ Dutch
+ Finnish
  French
  Friulian
  Galician
  German
+ Greek
  Hungarian
  Indonesian
+ Italian
  Japanese
  Korean
  Latvian
  Lithuanian
  Persian
  Polish
+ Portuguese (Brazilian)
  Punjabi
  Romanian
  Serbian
- Spanish
+ Slovak
  Slovenian
+ Spanish
  Swedish
+ Turkish
 
 
 Overview of changes in 3.33.91
