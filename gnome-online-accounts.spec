@@ -4,7 +4,7 @@
 #
 Name     : gnome-online-accounts
 Version  : 3.40.0
-Release  : 37
+Release  : 38
 URL      : https://download.gnome.org/sources/gnome-online-accounts/3.40/gnome-online-accounts-3.40.0.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-online-accounts/3.40/gnome-online-accounts-3.40.0.tar.xz
 Summary  : GNOME Online Accounts Library
