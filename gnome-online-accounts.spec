@@ -4,7 +4,7 @@
 #
 Name     : gnome-online-accounts
 Version  : 3.46.0
-Release  : 44
+Release  : 45
 URL      : https://download.gnome.org/sources/gnome-online-accounts/3.46/gnome-online-accounts-3.46.0.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-online-accounts/3.46/gnome-online-accounts-3.46.0.tar.xz
 Summary  : Backends for GNOME Online Accounts Library
