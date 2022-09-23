@@ -4,7 +4,7 @@
 #
 Name     : gnome-online-accounts
 Version  : 3.46.0
-Release  : 45
+Release  : 47
 URL      : https://download.gnome.org/sources/gnome-online-accounts/3.46/gnome-online-accounts-3.46.0.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-online-accounts/3.46/gnome-online-accounts-3.46.0.tar.xz
 Summary  : Backends for GNOME Online Accounts Library
@@ -12,8 +12,14 @@ Group    : Development/Tools
 License  : LGPL-2.0
 BuildRequires : buildreq-gnome
 BuildRequires : buildreq-meson
+BuildRequires : json-glib-dev
 BuildRequires : krb5-dev
 BuildRequires : libc-bin
+BuildRequires : pkgconfig(gcr-3)
+BuildRequires : pkgconfig(javascriptcoregtk-4.1)
+BuildRequires : pkgconfig(json-glib-1.0)
+BuildRequires : pkgconfig(libsecret-1)
+BuildRequires : pkgconfig(rest-1.0)
 
 %description
 GNOME Online Accounts - Single sign-on framework for GNOME
@@ -28,7 +34,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1663962004
+export SOURCE_DATE_EPOCH=1663967542
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -37,9 +43,7 @@ export CFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=auto "
 export FCFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=auto "
 export FFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=auto "
 export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=auto "
-CFLAGS="$CFLAGS" CXXFLAGS="$CXXFLAGS" LDFLAGS="$LDFLAGS" meson --libdir=lib64 --prefix=/usr --buildtype=plain --disable-inspector \
---disable-telepathy \
---enable-kerberos  builddir
+CFLAGS="$CFLAGS" CXXFLAGS="$CXXFLAGS" LDFLAGS="$LDFLAGS" meson --libdir=lib64 --prefix=/usr --buildtype=plain   builddir
 ninja -v -C builddir
 
 %install
