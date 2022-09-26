@@ -1,0 +1,31 @@
+option('goabackend', type: 'boolean', value: true, description: 'Enable goabackend library')
+option('inspector', type: 'boolean', value: false, description: 'Enable a WebKitWebInspector for the embedded web view')
+
+option('exchange', type: 'boolean', value: true, description: 'Enable Microsoft Exchange provider')
+
+option('fedora', type: 'boolean', value: false, description: 'Enable Fedora Account System provider')
+
+option('google', type: 'boolean', value: true, description: 'Enable Google provider')
+option('google_client_id', type: 'string', value: '44438659992-7kgjeitenc16ssihbtdjbgguch7ju55s.apps.googleusercontent.com', description: 'Google OAuth 2.0 client id')
+option('google_client_secret', type: 'string', value: '-gMLuQyDiI0XrQS_vx_mhuYF', description: 'Google OAuth 2.0 client secret')
+
+option('imap_smtp', type: 'boolean', value: true, description: 'Enable IMAP/SMTP provider')
+
+option('kerberos', type: 'boolean', value: true, description: 'Enable kerberos provider')
+
+option('lastfm', type: 'boolean', value: true, description: 'Enable Last.fm provider')
+option('lastfm_client_id', type: 'string', value: '7a2461fe34c9c8124fb28ac750ba12fa', description: 'Last.fm client id')
+option('lastfm_client_secret', type: 'string', value: '49ec391644459c417f3afe57ca246c5a', description: 'Last.fm client secret')
+
+option('media_server', type: 'boolean', value: false, description: 'Enable Media Server provider')
+
+option('owncloud', type: 'boolean', value: true, description: 'Enable ownCloud provider')
+
+option('windows_live', type: 'boolean', value: true, description: 'Enable Windows Live provider')
+option('windows_live_client_id', type: 'string', value: '0000000044067703', description: 'Windows Live OAuth 2.0 client id')
+
+option('gtk_doc', type: 'boolean', value: false, description: 'use gtk_doc to build documentation')
+option('introspection', type: 'boolean', value: true, description: 'Enable GObject Introspection (depends on GObject)')
+option('man', type: 'boolean', value: false, description: 'enable man pages')
+option('template_file', type: 'string', value: '', description: 'Path to the template file')
+option('vapi', type: 'boolean', value: true, description: 'build Vala binding')

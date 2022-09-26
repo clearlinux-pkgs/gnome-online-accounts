@@ -1,0 +1,7 @@
+3.46.0
+json-glib-dev
+pkgconfig(gcr-3)
+pkgconfig(javascriptcoregtk-4.1)
+pkgconfig(json-glib-1.0)
+pkgconfig(libsecret-1)
+pkgconfig(rest-1.0)
