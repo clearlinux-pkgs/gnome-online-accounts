@@ -4,7 +4,7 @@
 #
 Name     : gnome-online-accounts
 Version  : 3.46.0
-Release  : 48
+Release  : 49
 URL      : https://download.gnome.org/sources/gnome-online-accounts/3.46/gnome-online-accounts-3.46.0.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-online-accounts/3.46/gnome-online-accounts-3.46.0.tar.xz
 Summary  : Backends for GNOME Online Accounts Library
@@ -25,6 +25,7 @@ BuildRequires : pkgconfig(javascriptcoregtk-4.1)
 BuildRequires : pkgconfig(json-glib-1.0)
 BuildRequires : pkgconfig(libsecret-1)
 BuildRequires : pkgconfig(rest-1.0)
+Patch1: backport-gcr.patch
 
 %description
 GNOME Online Accounts - Single sign-on framework for GNOME
@@ -89,13 +90,14 @@ locales components for the gnome-online-accounts package.
 %prep
 %setup -q -n gnome-online-accounts-3.46.0
 cd %{_builddir}/gnome-online-accounts-3.46.0
+%patch1 -p1
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1664165486
+export SOURCE_DATE_EPOCH=1664647307
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -109,7 +111,7 @@ ninja -v -C builddir
 
 %install
 mkdir -p %{buildroot}/usr/share/package-licenses/gnome-online-accounts
-cp %{_builddir}/gnome-online-accounts-%{version}/COPYING %{buildroot}/usr/share/package-licenses/gnome-online-accounts/21e40770dfa802576ee515345cef47ecedff6524
+cp %{_builddir}/gnome-online-accounts-%{version}/COPYING %{buildroot}/usr/share/package-licenses/gnome-online-accounts/21e40770dfa802576ee515345cef47ecedff6524 || :
 DESTDIR=%{buildroot} ninja -C builddir install
 %find_lang gnome-online-accounts
 
