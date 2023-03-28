@@ -5,7 +5,7 @@
 #
 Name     : gnome-online-accounts
 Version  : 3.48.0
-Release  : 50
+Release  : 51
 URL      : https://download.gnome.org/sources/gnome-online-accounts/3.48/gnome-online-accounts-3.48.0.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-online-accounts/3.48/gnome-online-accounts-3.48.0.tar.xz
 Summary  : Backends for GNOME Online Accounts Library
@@ -101,7 +101,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1679690359
+export SOURCE_DATE_EPOCH=1680029678
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
