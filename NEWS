@@ -1,3 +1,47 @@
+Overview of changes in 3.50.0
+=============================
+* Updated project link
+* Translation updates
+
+Overview of changes in 3.49.4
+=============================
+* Update dependencies in the GoaBackend pkgconfig
+
+Overview of changes in 3.49.3
+=============================
+* Bump GoaBacked soname to 2.0.0
+* Fix nested modal windows
+* Simplified account setup UX
+* Updates to user visible labels and descriptions
+* Translation updates
+
+Overview of changes in 3.49.2
+=============================
+* Fix a use-after-free error
+* Set a minimum height for dialogs
+* Translation updates
+
+Overview of changes in 3.49.1
+=============================
+
+* Add Microsoft 365 provider
+* Port to GTK4/Adwaita and an async API
+* Remove nautilus-floating-bar
+* Derive the Fedora provider from Kerberos
+* Migrate existing WebDAV accounts
+* Update provider icons
+* Translation updates
+
+Overview of changes in 3.49.0
+=============================
+
+* Depend on GCR4
+* Remove the media server provider
+* Remove the Last.fm provider
+* Add WebDAV base provider
+* Remove the webview and WebKit dependency
+* Translation updates
+
 Overview of changes in 3.48.0
 =============================
 

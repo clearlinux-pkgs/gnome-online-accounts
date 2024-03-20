@@ -1,5 +1,4 @@
 option('goabackend', type: 'boolean', value: true, description: 'Enable goabackend library')
-option('inspector', type: 'boolean', value: false, description: 'Enable a WebKitWebInspector for the embedded web view')
 
 option('exchange', type: 'boolean', value: true, description: 'Enable Microsoft Exchange provider')
 
@@ -13,16 +12,15 @@ option('imap_smtp', type: 'boolean', value: true, description: 'Enable IMAP/SMTP
 
 option('kerberos', type: 'boolean', value: true, description: 'Enable kerberos provider')
 
-option('lastfm', type: 'boolean', value: true, description: 'Enable Last.fm provider')
-option('lastfm_client_id', type: 'string', value: '7a2461fe34c9c8124fb28ac750ba12fa', description: 'Last.fm client id')
-option('lastfm_client_secret', type: 'string', value: '49ec391644459c417f3afe57ca246c5a', description: 'Last.fm client secret')
-
-option('media_server', type: 'boolean', value: false, description: 'Enable Media Server provider')
-
 option('owncloud', type: 'boolean', value: true, description: 'Enable ownCloud provider')
+
+option('webdav', type: 'boolean', value: true, description: 'Enable WebDAV provider')
 
 option('windows_live', type: 'boolean', value: true, description: 'Enable Windows Live provider')
 option('windows_live_client_id', type: 'string', value: '0000000044067703', description: 'Windows Live OAuth 2.0 client id')
+
+option('ms_graph', type: 'boolean', value: true, description: 'Enable Microsoft 365 provider')
+option('ms_graph_client_id', type: 'string', value: '', description: 'Microsoft 365 client id')
 
 option('gtk_doc', type: 'boolean', value: false, description: 'use gtk_doc to build documentation')
 option('introspection', type: 'boolean', value: true, description: 'Enable GObject Introspection (depends on GObject)')

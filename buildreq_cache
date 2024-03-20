@@ -1,7 +1,7 @@
-3.48.0
+3.50.0
 json-glib-dev
-pkgconfig(gcr-3)
-pkgconfig(javascriptcoregtk-4.1)
+pkgconfig(gcr-4)
 pkgconfig(json-glib-1.0)
+pkgconfig(libadwaita-1)
 pkgconfig(libsecret-1)
 pkgconfig(rest-1.0)
