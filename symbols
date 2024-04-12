@@ -610,6 +610,7 @@ libgoa-backend-1.0.so.2:goa_oauth2_provider_get_scope
 libgoa-backend-1.0.so.2:goa_oauth2_provider_get_token_uri
 libgoa-backend-1.0.so.2:goa_oauth2_provider_get_type
 libgoa-backend-1.0.so.2:goa_oauth2_provider_get_use_mobile_browser
+libgoa-backend-1.0.so.2:goa_oauth2_provider_get_use_pkce
 libgoa-backend-1.0.so.2:goa_oauth2_provider_process_redirect_url
 libgoa-backend-1.0.so.2:goa_object_skeleton_attach_calendar
 libgoa-backend-1.0.so.2:goa_object_skeleton_attach_contacts
@@ -674,12 +675,15 @@ libgoa-backend-1.0.so.2:goa_soup_logger_new
 libgoa-backend-1.0.so.2:goa_util_account_notify_property_cb
 libgoa-backend-1.0.so.2:goa_util_lookup_keyfile_boolean
 libgoa-backend-1.0.so.2:goa_util_lookup_keyfile_string
+libgoa-backend-1.0.so.2:goa_utils_base64_url_encode
 libgoa-backend-1.0.so.2:goa_utils_check_duplicate
 libgoa-backend-1.0.so.2:goa_utils_convert_abs_usec_to_duration_sec
 libgoa-backend-1.0.so.2:goa_utils_convert_duration_sec_to_abs_usec
 libgoa-backend-1.0.so.2:goa_utils_data_input_stream_read_line
 libgoa-backend-1.0.so.2:goa_utils_delete_credentials_for_account_sync
 libgoa-backend-1.0.so.2:goa_utils_delete_credentials_for_id_sync
+libgoa-backend-1.0.so.2:goa_utils_generate_code_challenge
+libgoa-backend-1.0.so.2:goa_utils_generate_code_verifier
 libgoa-backend-1.0.so.2:goa_utils_get_credentials
 libgoa-backend-1.0.so.2:goa_utils_keyfile_copy_group
 libgoa-backend-1.0.so.2:goa_utils_keyfile_get_boolean
