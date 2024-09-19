@@ -1,7 +1,10 @@
-3.50.4
+3.52.0
+docbook-xml
+gi-docgen
 json-glib-dev
 pkgconfig(gcr-4)
 pkgconfig(json-glib-1.0)
 pkgconfig(libadwaita-1)
+pkgconfig(libkeyutils)
 pkgconfig(libsecret-1)
 pkgconfig(rest-1.0)
