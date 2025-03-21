@@ -1,36 +1,99 @@
-Overview of changes in 3.52.3.1
+Overview of changed in 3.54.0.1
 ===============================
-* Fix for release script
+* Bugs fixed:
+  - #411 Cannot sign in to Google
 
-Overview of changes in 3.52.3
+Overview of changes in 3.54.0
 =============================
 * Bugs fixed:
-  - #384 Unable to Sign In to Microsoft Exchange account
-  - #389 Missing kerberos password not detected
-  - #392 Fail faster - don't wait 120 seconds to timeout
-  - !303 goadaemon: Changes around "no provider" runtime warnings
-
-Overview of changes in 3.52.2
-=============================
-* Bugs fixed:
-  - goadavclient.c: add WebDAV default candidate to test (Alexandre Jousset)
-  - goafedoraprovider: fix use-after-free
+  - #114 Fix unescaped characters in IMAP and SMTP logins
+  - #391 Nextcloud 'Cannot find WebDAV endpoint' error
+  - !319 goaproviderdialog: don't update the error revealer until set
+  - !320 goaoauth2provider: rewrite the D-Bus helper as a per-task service
+  - !323 goagoogleprovider: drop the client secret and deprecate the option
 
 * Translation updates:
-  - Dutch (Nathan Follens)
-  - Friulian (Fabio Tomat)
-  - Serbian (Марко Костић)
+  - Bokmål, Norwegian (Brage Fuglseth)
+  - Catalan (Jordi Mas i Hernandez)
+  - Danish (Ask Hjorth Larsen)
+  - Hungarian (Balázs Úr)
+  - Korean (Seong-ho Cho)
+  - Nepali (Pawan Chitrakar)
+  - Panjabi (A S Alam)
+  - Spanish (Daniel Mustieles)
 
-Overview of changes in 3.52.1
+Overview of changes in 3.53.2
 =============================
 * Bugs fixed:
-  - !285 goakerberosprovider: don't assume all errors are auth errors
-  - !285 goaoauthprovider: fix expected NULL GError
+  - !306 goaoauth2provider: handle OAuth2 error responses
+  - !307 docs: update README
+  - !308 goabackend: drop GoaHTTPClient
+  - !309 examples: drop g_error() usage
+  - !311 oauth2handler: Replace libsecret with dbus (Jan-Michael Brummer)
+
+* Translation updates:
+  - Basque (Asier Sarasua Garmendia)
+  - Bulgarian (twlvnn kraftwerk)
+  - Chinese (China) (Luming Zh)
+  - Czech (Daniel Rusek)
+  - Finnish (Jiri Grönroos)
+  - French (Irénée THIRION)
+  - Galician (Fran Dieguez)
+  - Georgian (Ekaterine Papava)
+  - Hebrew (Yosef Or Boczko)
+  - Indonesian (Andika Triwidada)
+  - Lithuanian (Aurimas Černius)
+  - Occitan (post 1500) (Quentin PAGÈS)
+  - Panjabi (A S Alam)
+  - Persian (Danial Behzadi)
+  - Polish (Piotr Drąg)
+  - Portuguese (Hugo Carvalho)
+  - Portuguese (Brazil) (Álvaro Burns)
+  - Swedish (Anders Jonsson)
+  - Ukrainian (Yuri Chornoivan)
+
+Overview of changes in 3.53.1
+=============================
+* Bugs fixed:
+  - !286 onedrive: Use presentation id in OneDrive uri
+
+* Translation updates:
+  - Russian (Artur S0)
+  - Slovenian (Martin)
+
+Overview of changes in 3.53.0
+=============================
+* Bugs fixed:
+  - #113 Add GUI field for PresentationIdentity to be able to set a custom name
+    / nickname for an online account
+  - #357 Also offer an oauth2 sign-in link that can be copied instead of only
+    directly opening in external browser?
+  - #367 Non-actionable "Account Action Required" notification when account
+    requires VPN
+  - #383 imap: Remove / Demote "None" encryption option
+  - #384 Unable to Sign In to Microsoft Exchange account on Gnome 46 24.04.1
+  - #386 segfault after signing into Fedora account
+  - #389 Missing kerberos password not detected
+  - #392 Fail faster - don't wait 120 seconds to timeout and return an error on
+    initial authentication
+  - !282 goadaemon: add a timeout for credential checks
+  - !288 goaoauthprovider: fix expected NULL GError
+  - !290 docs: add issue templates
+  - !293 goadavclient.c: add WebDAV default candidate to test
+  - !300 ci: add support for new release service
+  - !303 goadaemon: Changes around "no provider" runtime warnings
 
 * Translation updates:
   - Catalan (Jordi Mas i Hernandez)
+  - Dutch (Nathan Follens)
+  - Friulian (Fabio Tomat)
+  - Hebrew (Yaron Shahrabani)
   - Latvian (Rūdolfs Mazurs)
+  - Russian (Artur S0)
+  - Serbian (Марко Костић)
+  - Slovenian (Martin)
   - Thai (Aefgh Threenine)
+  - Turkish (Sabri Ünal)
 
 Overview of changes in 3.52.0
 =============================
